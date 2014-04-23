@@ -14,6 +14,7 @@ var test = function ($) {
             if (wasTriggered) {
                 console.log('\t\thooray!');
             }
+            wasTriggered = false;
         };
 
         console.log('testing appending element to ' + x);
